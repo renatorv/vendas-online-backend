@@ -34,7 +34,23 @@ Interface => é o objeto propriamente dito
 
 *******************************************************************************************************************
 # https://www.youtube.com/watch?v=7w5_R2ndx0Y&list=PLedVhPP7RyiIOJ7R4lqXtWa4x-GX-x7rO&index=5
+Services: [ nest g service user ]
+
+Segurança:
+npm i bcrypt
+npm i -D @types/bcrypt
+
+*******************************************************************************************************************
+# https://www.youtube.com/watch?v=B4zD7ffzpac&list=PLedVhPP7RyiIOJ7R4lqXtWa4x-GX-x7rO&index=6
+Configuração das variáveis de conexão com o banco de dados.
+npm i --save @nestjs/config
+
+npm install --save typeorm pg @nestjs/typeorm
+
+*******************************************************************************************************************
+https://www.youtube.com/watch?v=9KOZ8ZhchpQ&list=PLedVhPP7RyiIOJ7R4lqXtWa4x-GX-x7rO&index=7
 
 
 
-# Próxima => https://www.youtube.com/watch?v=7w5_R2ndx0Y&list=PLedVhPP7RyiIOJ7R4lqXtWa4x-GX-x7rO&index=5
+
+# Próxima => https://www.youtube.com/watch?v=9KOZ8ZhchpQ&list=PLedVhPP7RyiIOJ7R4lqXtWa4x-GX-x7rO&index=7
