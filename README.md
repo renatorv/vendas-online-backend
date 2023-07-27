@@ -10,6 +10,8 @@ $ npm run start:dev
 
 # production mode
 $ npm run start:prod
+
+$ docker run --name some-postgres -e POSTGRES_PASSWORD=mysecretpassword -d postgres
 ```
 *******************************************************************************************************************
 # https://www.youtube.com/watch?v=2wJ3LjPjEbI&list=PLedVhPP7RyiIOJ7R4lqXtWa4x-GX-x7rO&index=3
@@ -62,7 +64,22 @@ npx typeorm migration:create ./src/migration/create_table_address
 *******************************************************************************************************************
 https://www.youtube.com/watch?v=b5s02aQTOh8&list=PLedVhPP7RyiIOJ7R4lqXtWa4x-GX-x7rO&index=9
 
+npx typeorm migration:create ./src/migration/alter_table_state
+npx typeorm migration:create ./src/migration/insert_into_state
+npx typeorm migration:create ./src/migration/insert_into_city
+
+nest g module state
+nest g module city
+nest g module address
+
+nest g controller state
+nest g service state
+
+*******************************************************************************************************************
+https://www.youtube.com/watch?v=tH56ijYRL4s&list=PLedVhPP7RyiIOJ7R4lqXtWa4x-GX-x7rO&index=10
 
 
-# Próxima => https://www.youtube.com/watch?v=b5s02aQTOh8&list=PLedVhPP7RyiIOJ7R4lqXtWa4x-GX-x7rO&index=9
+
+
+# Próxima => https://www.youtube.com/watch?v=tH56ijYRL4s&list=PLedVhPP7RyiIOJ7R4lqXtWa4x-GX-x7rO&index=10
 *******************************************************************************************************************
