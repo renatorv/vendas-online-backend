@@ -48,9 +48,21 @@ npm i --save @nestjs/config
 npm install --save typeorm pg @nestjs/typeorm
 
 *******************************************************************************************************************
-https://www.youtube.com/watch?v=9KOZ8ZhchpQ&list=PLedVhPP7RyiIOJ7R4lqXtWa4x-GX-x7rO&index=7
+https://www.youtube.com/watch?v=GKlf15yGR2w&list=PLedVhPP7RyiIOJ7R4lqXtWa4x-GX-x7rO&index=8
+Aula 07 [NestJS] - Criação de migrations utilizando TypeOrm no Nest.js
+parametro synchronize: true não é bom usar em produção
+Migrations: script de bd que é executado antes do servidor ser rodado.
+
+npx typeorm migration:create ./src/migration/create_table_user
+
+npx typeorm migration:create ./src/migration/create_table_state
+npx typeorm migration:create ./src/migration/create_table_city
+npx typeorm migration:create ./src/migration/create_table_address
+
+*******************************************************************************************************************
+https://www.youtube.com/watch?v=b5s02aQTOh8&list=PLedVhPP7RyiIOJ7R4lqXtWa4x-GX-x7rO&index=9
 
 
 
-
-# Próxima => https://www.youtube.com/watch?v=9KOZ8ZhchpQ&list=PLedVhPP7RyiIOJ7R4lqXtWa4x-GX-x7rO&index=7
+# Próxima => https://www.youtube.com/watch?v=b5s02aQTOh8&list=PLedVhPP7RyiIOJ7R4lqXtWa4x-GX-x7rO&index=9
+*******************************************************************************************************************
