@@ -78,6 +78,10 @@ nest g service state
 *******************************************************************************************************************
 https://www.youtube.com/watch?v=tH56ijYRL4s&list=PLedVhPP7RyiIOJ7R4lqXtWa4x-GX-x7rO&index=10
 
+nest g controller city
+nest g service city
+
+npm install @nestjs/cache-manager cache-manager
 
 
 
